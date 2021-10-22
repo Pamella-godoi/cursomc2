@@ -12,7 +12,9 @@ import com.pamellagodoi.cursomc.domain.Categoria;
 @RestController
 @RequestMapping(value="/categorias")
 public class CategoriaResources {
-		
+	
+	
+	
 	@RequestMapping(method=RequestMethod.GET)
 	public List<Categoria> listar() {
 		
